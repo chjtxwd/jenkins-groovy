@@ -1,4 +1,4 @@
-pipelineJob('seed-jobs/ami_seed_job') {
+pipelineJob('test') {
     triggers {
       cron('H * * * *')
     }
