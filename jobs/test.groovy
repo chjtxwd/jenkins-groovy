@@ -1,4 +1,4 @@
-pipelineJob('DSL') {
+pipelineJob('DSL-github') {
     triggers {
       cron('H * * * *')
     }
